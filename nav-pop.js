@@ -43,7 +43,7 @@
       },
       addClone: () => {
         // Create clone of header, change ID, add hiding styles
-        nav.clone = $(nav.self).clone().attr('id', 'header-clone').addClass('header-clone')
+        nav.clone = $(nav.self).clone(true).attr('id', 'header-clone').addClass('header-clone')
         // Update header nav toggles so that they are different from the original, thus not triggering each other's nav menus
         $(nav.clone).find('.navbar-collapse').attr('id', 'nav-mobile-toggle-clone')
         $(nav.clone).find('.navbar-toggle').attr('data-target', '#nav-mobile-toggle-clone')
