@@ -1,0 +1,35 @@
+#header-clone {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid $gray-light;
+  
+  &, * { transition: all 0.3s ease; }
+
+  &.header-clone {
+    .navbar { min-height: 50px; }
+    .navbar-brand {
+      padding-bottom: 10px;
+      height: auto;
+
+      img { 
+        max-width: 70%;
+      }
+    }
+
+    .navbar-toggle {
+      margin: 17px 15px 10px 0;
+    }
+
+    @media (min-width: $screen-md-min) {
+
+      .navbar-brand { padding-top: 13px; }
+
+      .navbar li a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

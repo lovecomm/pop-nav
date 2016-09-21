@@ -1,0 +1,31 @@
+{
+  "name": "nav-pop.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nav-pop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:lovecomm/pop-nav.git"
+  },
+  "keywords": [
+    "js",
+    "scss",
+    "dynamic navigation",
+    "navigation",
+    "mobile"
+  ],
+  "author": "Logan Call",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logancalldev/pop-nav/issues"
+  },
+  "homepage": "https://github.com/logancalldev/pop-nav#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "waypoints": "^4.0.1"
+  }
+}
